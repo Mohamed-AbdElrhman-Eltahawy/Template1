@@ -10,6 +10,7 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
 /*Navbar style*/
 .nav {
   width: 100%;
@@ -95,6 +96,61 @@ body {
   cursor: pointer;
   background-color: #43bff0;
 }
+
+/*Header Responsive..............*/
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .container {
+    width: 100%;
+  }
+  .header {
+    box-shadow: none;
+  }
+  .header-wrapper {
+    margin: 1rem;
+    display: block;
+  }
+  .header-im-wrapper {
+    text-align: center;
+  }
+  .header-text {
+    padding-left: 0;
+  }
+  .header-text h1 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+  .container {
+    width: 100%;
+  }
+  .header {
+    box-shadow: none;
+  }
+  .header-wrapper {
+    margin: 1rem;
+    display: block;
+  }
+  .header-im-wrapper {
+    text-align: center;
+  }
+  .header-text {
+    padding-left: 0;
+  }
+  .header-text h1 {
+    text-align: center;
+  }
+  .header-button {
+    display: block;
+    margin: 0 auto;
+  }
+  .header-image {
+    width: 70%;
+  }
+}
+/*End......................*/
 
 /*Stuff section*/
 .stuff {
